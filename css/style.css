@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond|Slabo+27px&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box; }
+
+li {
+  list-style-type: none; }
+
+h2,
+h1 {
+  color: white;
+  font-weight: normal; }
+
+body {
+  font-family: 'EB Garamond', serif;
+  background-image: url("../img/edukacija1.jpg");
+  position: relative; }
+  body #slika {
+    background-image: url(../img/prva.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-bottom: 4%;
+    padding-right: 5%;
+    position: relative; }
+    body #slika #navigacija {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 40%;
+      height: 90px;
+      display: flex;
+      align-items: center; }
+      body #slika #navigacija nav {
+        width: 100%;
+        border-bottom: 2px solid rgba(186, 6, 13, 0.3); }
+        body #slika #navigacija nav ul {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around; }
+          body #slika #navigacija nav ul li {
+            margin-left: 5%; }
+        body #slika #navigacija nav a {
+          color: white;
+          text-decoration: none;
+          font-size: 25px; }
+          body #slika #navigacija nav a:hover {
+            font-weight: bold;
+            border-bottom: 3px solid rgba(186, 6, 13, 0.7); }
+    body #slika .about {
+      width: 35%;
+      height: auto;
+      background-color: rgba(186, 6, 13, 0.2);
+      position: absolute;
+      top: 10%;
+      right: 5%;
+      padding: 2%;
+      text-align: center; }
+      body #slika .about h2, body #slika .about h1 {
+        margin-bottom: 6%; }
+      body #slika .about a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        margin: 10px;
+        padding: 3%;
+        background-color: rgba(186, 6, 13, 0.7); }
+        body #slika .about a:hover {
+          background-color: rgba(186, 6, 13, 0.8);
+          font-size: 1.3em; }
+  body .skills {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-around; }
+    body .skills .skills1 {
+      width: 50%;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      color: #ba060d; }
+      body .skills .skills1 li {
+        list-style-image: url("../img/icon.png");
+        font-size: 26px;
+        padding-bottom: 5%; }
+      body .skills .skills1 h2 {
+        color: #ba060d; }
+  body .proj {
+    width: 32%;
+    background-color: rgba(0, 0, 0, 0.05);
+    height: 300px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+  body .jedan {
+    background-image: url("../img/logo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    body .jedan:hover {
+      transform: scale(1.05); }
+  body .dva {
+    background-image: url("../img/prva.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; }
+    body .dva:hover {
+      transform: scale(1.05); }
+  body .sat {
+    font-size: 200px;
+    color: #ba060d; }
+
+.ex {
+  background-image: url("../img/ex.jpg");
+  background-size: cover;
+  position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  z-index: 1; }
+
+.providan {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.5);
+  z-index: 2; }
+
+.tekst {
+  margin: 0px auto;
+  width: 50%;
+  padding: 2% 6%;
+  text-align: justify; }
+  .tekst h2 {
+    color: #ba060d; }
+
+.projekat {
+  background-image: url("../img/logo.png");
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+#obrazovanje {
+  width: 100%;
+  height: 400px;
+  background-image: url("../img/edukacija.png");
+  background-repeat: no-repeat;
+  text-align: left; }
+  #obrazovanje table h5, #obrazovanje table h2, #obrazovanje table h3, #obrazovanje table h4 {
+    font-weight: normal;
+    font-size: 28px;
+    color: #ba060d;
+    padding-top: 4%; }
+    #obrazovanje table h5 .dete, #obrazovanje table h2 .dete, #obrazovanje table h3 .dete, #obrazovanje table h4 .dete {
+      visibility: hidden; }
+  #obrazovanje table h3, #obrazovanje table h4 {
+    padding-top: 5.3%; }
+  #obrazovanje table h5 {
+    padding-left: 20%; }
+  #obrazovanje table h2 {
+    padding-left: 30%; }
+  #obrazovanje table h3 {
+    padding-left: 45%; }
+  #obrazovanje table h4 {
+    padding-left: 58%; }
+
+#s, #e, #ed, #p {
+  text-align: center;
+  margin-top: 2%; }
+  #s h1, #e h1, #ed h1, #p h1 {
+    margin-bottom: 2%;
+    color: #ba060d; }
+
+#c {
+  width: 100%;
+  height: auto;
+  margin-top: 0.5%;
+  background-color: rgba(186, 6, 13, 0.85);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1%;
+  text-align: center; }
+  #c .c {
+    width: 50%;
+    height: auto;
+    text-align: center; }
+    #c .c table {
+      margin-top: 4%;
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      #c .c table input[type="text"],
+      #c .c table input[type="email"] {
+        background: transparent;
+        border: none;
+        border-bottom: 2px dashed rgba(186, 6, 13, 0.5);
+        font-size: 25px;
+        font-family: 'EB Garamond', serif; }
+        #c .c table input[type="text"]::placeholder,
+        #c .c table input[type="email"]::placeholder {
+          color: white;
+          font-size: 16px; }
+      #c .c table input[type="email"],
+      #c .c table input[type="text"] {
+        width: 100%;
+        margin: 2%; }
+      #c .c table input[type="submit"] {
+        background: transparent;
+        border: 2px solid rgba(186, 6, 13, 0.7);
+        padding: 4%;
+        margin-top: 4%;
+        color: white;
+        font-family: 'EB Garamond', serif; }
+    #c .c .ikonice {
+      width: 90%;
+      margin: 0px auto;
+      height: auto;
+      text-align: center;
+      margin-top: 12%; }
+      #c .c .ikonice a {
+        color: white;
+        font-size: 25px;
+        margin: 1%;
+        margin-right: 4%; }
+        #c .c .ikonice a:hover {
+          color: #ba060d; }
+
+#strelica {
+  text-align: center;
+  height: 6%;
+  position: absolute;
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+  background-color: rgba(186, 6, 13, 0.3);
+  z-index: 100; }
+  #strelica a {
+    padding: 1%;
+    text-decoration: none;
+    color: #ba060d; }
+  #strelica .s {
+    font-size: 40px; }
+
+/*# sourceMappingURL=style.css.map */

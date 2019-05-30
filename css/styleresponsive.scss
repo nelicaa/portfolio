@@ -1,0 +1,316 @@
+@media screen and(max-width:936px){
+    body{
+        #obrazovanje{
+            h3,
+            h4 {
+                padding-top: 3%;
+            }
+            h4{
+                padding-left: 60%;  
+            }
+        }
+    }
+}
+@media screen and(max-width:906px) {
+    body {
+        #slika {
+            .about {
+                top: 5%;
+
+                a {
+                    font-size: 17px;
+                }
+
+                h2 {
+                    font-size: 23px;
+                }
+
+                h1 {
+                    font-size: 30px;
+                }
+
+            }
+
+            #navigacija {
+                width: 50%;
+
+            }
+        }
+    }
+}
+@media screen and(max-width:880px){
+     body{
+        #obrazovanje{
+            h3,
+            h4, h5, h2 {
+                padding-top: 4%;  
+            }
+            h4{
+                margin-top:0.5%;
+                padding-left: 60%;  
+            }
+        }
+    }
+
+}
+@media screen and(max-width:845px) {
+    body {
+        #obrazovanje {
+        h5 {
+            padding-left: 20%;
+        }
+
+        h2 {
+            padding-left: 35%;
+        }
+
+        h3 {
+            padding-left: 50%;
+        }
+
+        h4 {
+            padding-left:65%;
+        }
+        }
+    }
+
+}
+@media screen and(max-width:777px) {
+    body {
+        #obrazovanje {
+            h4{
+                padding-left:65.5%; 
+            }
+        }
+    }
+}
+@media screen and(max-width:766px){
+    body{
+        #obrazovanje{
+            height:auto;
+            background-image:none;
+            padding: 3%;
+            table{
+            h2,
+            h3,
+            h4 {
+                padding-top: 6%;
+             .dete {
+                 visibility:visible;
+                 margin-right: 5%;
+             }
+             }
+            h5 {
+                display: none;
+            }
+
+            h2 {
+                padding-left: 5%;
+            }
+
+            h3 {
+                padding-left: 20%;
+            }
+
+            h4 {
+                padding-left: 37%;
+            }
+
+        }
+    }
+    }
+
+
+}
+@media screen and(max-width:754px){
+body{
+   #slika{
+       display:block;
+        #navigacija {
+            width: 90%;
+            margin: 0px auto;
+        }
+
+        .about {
+            position: static;
+            margin: 15% auto;
+            width:70%;
+        }
+        }
+        .skills{
+                .tekst{
+                    width:65%;
+                }
+                .jedan{
+                    background-position: 0px center;
+                }
+            
+        }
+        #c{
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            flex-direction: column-reverse;
+            .c{
+                h1{
+                    display:none;
+                }
+            }
+        }
+   }
+  
+}
+@media screen and(max-width:730px){
+    body{
+        .skills{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .proj {
+                display: static;
+                height: 250px;
+                width: 80%;
+                margin-top: 1%;
+                background-position: 0px center;
+
+                .sat {
+                    font-size: 100px;
+                }
+        }
+    }
+
+
+}
+@media screen and(max-width:560px){
+    body{
+         #c {
+             .c {
+                 width: 100%;
+                 height: auto;
+             }
+         }
+    }
+}
+@media screen and(max-width:480px) {
+    body{
+    #slika{
+        .about{
+            width:60%;
+            height:380px;
+            padding: 1%;
+            font-size: 13px;
+            a{
+                margin: 0px;
+                padding: 0px;
+                font-size: 15px;
+                padding: 3%;
+            }
+            h2{
+                font-size: 20px;
+            }
+            h1{
+                font-size: 24px;
+            }
+        }
+        #navigacija{
+            text-align: center;
+            height:auto;
+            padding-top: 2%;
+        nav{
+            ul{
+                flex-direction: column;
+            }
+        }
+    }
+    }
+    .skills{
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+        .skills1{
+            li{
+            font-size: 21px;
+            padding-bottom:0px;
+            }
+
+        }
+        .proj{
+            display:static;
+            height:157px;
+            width:80%;
+            margin-top: 1%;
+            background-position: 0px center;
+            .sat{
+                font-size:100px;
+            }
+            
+        }
+    }
+    #obrazovanje{
+        table{
+            h2,h3,h4{
+                font-size: 23px;
+            }
+        }
+        
+    }
+    #c{
+        .c{
+            width: 90%;
+            height: auto;
+        }
+    }
+    #strelica{
+        right:1%;
+        bottom:1%;
+    }
+    #s,
+    #e,
+    #ed,
+    #p{
+        font-size:13px;
+    }
+}
+}
+@media screen and(max-width:398px) {
+    body {
+        #slika {
+            .about {
+                height:auto;
+                width:95%;
+                right:0px;
+                margin:0px auto;
+                margin-top: 2%;
+            }
+        }
+        #c {
+            .c {
+                width: 95%;
+                table {
+                    input[type="text"],
+                    input[type="email"] {
+                        font-size: 15px;
+                    }
+
+            }
+            .ikonice{
+                margin-top:0px;
+                
+                a{
+                font-size:20px;
+                }
+            }
+        }
+        }
+        #strelica {
+           display:none;
+        }
+        .ex{
+            .tekst {
+                width: 80%;
+            }
+        }
+    }
+}
+}
+

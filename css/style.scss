@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond|Slabo+27px&display=swap');
+$boja1:black;
+$boja2:/*#b6060c;*/
+        #ba060d;
+$tekst: white;
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+li {
+    list-style-type: none;
+}
+h2,
+h1 {
+    color:$tekst;
+    font-weight: normal;
+}
+body{
+    font-family: 'EB Garamond',
+    serif;
+    background-image: url("../img/edukacija1.jpg");
+    position:relative;
+    #slika{
+        background-image:url(../img/prva.jpg);
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:650px;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        padding-bottom: 4%;
+        padding-right: 5%;
+        position:relative;
+        
+                #navigacija{
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-around;
+                    width: 40%;
+                    height: 90px;
+                    display: flex;
+                    align-items:center;
+                nav{
+                    
+                    width: 100%;
+                    border-bottom: 2px solid rgba($boja2, 0.3);
+                    ul{
+                        display: flex;
+                        flex-direction: row;
+                        justify-content: space-around;
+                        li{
+                            margin-left: 5%;
+                        }
+                    }
+                        a{
+                        color:$tekst;
+                        text-decoration: none;
+                        font-size:25px;
+                                &:hover{
+                                font-weight: bold;
+                                border-bottom: 3px solid rgba($boja2, 0.7);
+                                
+                                        }
+                            }
+                        }
+                                 }
+
+                    .about{
+                        width:35%;
+                        height:auto;
+                        background-color: rgba($boja2, 0.2);
+                        position: absolute;
+                        top:10%;
+                        right:5%;
+                        padding:2%;
+                        text-align: center;
+                            h2, h1{
+                                margin-bottom:6%;
+                            }
+                            a{
+                                color:$tekst;
+                                text-decoration: none;
+                                font-size:20px;
+                                margin: 10px;
+                                padding: 3%;
+                                background-color: rgba($boja2,0.7);
+                                &:hover{
+                                    background-color: rgba($boja2, 0.8);
+                                    font-size: 1.3em;
+                                }
+                            }
+                       
+
+
+                    }
+            }
+    .skills{
+        display: flex;
+        width:100%;
+        height:auto;
+        justify-content: space-around;
+            .skills1{
+                width:50%;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                justify-content: center;
+                color:$boja2;
+                    li{
+                        list-style-image: url("../img/icon.png");
+                        font-size: 26px;
+                        padding-bottom: 5%;
+                        
+                    }
+                    h2{
+                color:$boja2;
+                    }
+                }
+            }
+            .proj{
+                width:32%;
+                background-color: rgba(0, 0, 0, 0.05);
+                height:300px;
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                
+                
+            }
+            .jedan {
+                background-image: url("../img/logo.jpg");
+                 background-size: cover;
+                 background-repeat: no-repeat;
+                 &:hover {
+                     transform: scale(1.05);
+                 }
+            }
+            .dva {
+                background-image: url("../img/prva.jpg");
+                background-size: cover;
+                background-repeat: no-repeat;
+                &:hover {
+                    transform: scale(1.05);
+                }
+            }
+            .sat {
+                font-size: 200px;
+                color:$boja2;
+            }
+     }
+      
+     .ex{
+         background-image: url("../img/ex.jpg");
+          background-size: cover;
+         position:center;
+         background-repeat: no-repeat;
+         width:100%;
+         height:100%;
+         position: relative;
+         z-index: 1;
+           
+     }
+     .providan{
+         position: relative;
+         width: 100%;
+         height:100%;
+         background-color:rgba(255,255,255,0.5);
+         z-index: 2;
+
+     }
+     .tekst{
+         margin:0px auto;
+         width: 50%;
+         padding:2% 6%;
+         text-align: justify;
+            h2{
+                color:$boja2;
+            }
+     }
+     .projekat {
+         background-image: url("../img/logo.png");
+         width: 100%;
+         height: auto;
+         background-size: cover;
+         background-repeat: no-repeat;
+                }
+    #obrazovanje {
+        width: 100%;
+        height:400px;
+        background-image: url("../img/edukacija.png");
+        background-repeat: no-repeat;
+        text-align: left;
+        table{
+        h5,h2,h3,h4{
+            font-weight: normal;
+            font-size: 28px;
+            color:$boja2;
+            padding-top: 4%;
+            .dete{
+                visibility:hidden;
+            }
+
+        }
+        h3,h4{
+            padding-top: 5.3%;
+        }
+        h5{
+            padding-left:20%;
+        }
+        h2{
+            padding-left: 30%;
+        }
+        h3{
+            padding-left: 45%;
+        }
+        h4 {
+            padding-left: 58%;
+        }
+    }
+    }
+    #s, #e, #ed, #p{
+        text-align: center;
+        margin-top: 2%;
+        h1 {
+            margin-bottom: 2%;
+            color: $boja2;
+        }
+    }
+    #c{
+        width:100%;
+        height: auto;
+        margin-top: 0.5%;
+        background-color: rgba($boja2, 0.85);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 1%;
+        text-align: center;
+            .c{
+                
+                width:50%;
+                height: auto;
+                text-align: center;
+                table{
+                    margin-top: 4%;
+                    display:flex;
+                    justify-content: center;
+                    align-items: center;
+                    input[type="text"],
+                    input[type="email"] {
+                        background: transparent;
+                        border: none;
+                        border-bottom: 2px dashed rgba($boja2, 0.5);
+                        font-size: 25px;
+                        font-family: 'EB Garamond',
+                        serif;
+                        &::placeholder{
+                            color:white;
+                            font-size:16px;;
+                        }
+                    }
+                    input[type="email"],
+                    input[type="text"] {
+                        width:100%;
+                        margin:2%;
+                    }
+                    input[type="submit"]{
+                    background: transparent;
+                    border: 2px solid rgba($boja2, 0.7);
+                    padding: 4%;
+                    margin-top: 4%;
+                    color:white;
+                  font-family:  'EB Garamond',
+                    serif;
+                    
+                    }
+                }
+                .ikonice{
+                    width:90%;
+                    margin: 0px auto;
+                    height:auto;
+                    text-align: center;
+                    margin-top: 12%;
+                    a{
+                        color:white;
+                        font-size:25px;
+                        margin:1%;
+                        margin-right: 4%;
+                        &:hover{
+                            color:$boja2;
+                        }
+                        
+                    }
+                }
+            }
+    }
+    #strelica{
+        text-align: center;
+        height: 6%;
+        position: absolute;
+        position:fixed;
+        right:2%;
+        bottom:2%;
+        background-color:rgba($boja2, 0.3);
+        z-index: 100;
+ 
+        a{
+             padding: 1%;
+            text-decoration: none;
+            color:$boja2;
+        }
+         .s{
+        font-size: 40px;
+         }
+    }
+

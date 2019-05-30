@@ -1,0 +1,167 @@
+@media screen and (max-width: 936px) {
+  body #obrazovanje h3,
+  body #obrazovanje h4 {
+    padding-top: 3%; }
+  body #obrazovanje h4 {
+    padding-left: 60%; } }
+@media screen and (max-width: 906px) {
+  body #slika .about {
+    top: 5%; }
+    body #slika .about a {
+      font-size: 17px; }
+    body #slika .about h2 {
+      font-size: 23px; }
+    body #slika .about h1 {
+      font-size: 30px; }
+  body #slika #navigacija {
+    width: 50%; } }
+@media screen and (max-width: 880px) {
+  body #obrazovanje h3,
+  body #obrazovanje h4, body #obrazovanje h5, body #obrazovanje h2 {
+    padding-top: 4%; }
+  body #obrazovanje h4 {
+    margin-top: 0.5%;
+    padding-left: 60%; } }
+@media screen and (max-width: 845px) {
+  body #obrazovanje h5 {
+    padding-left: 20%; }
+  body #obrazovanje h2 {
+    padding-left: 35%; }
+  body #obrazovanje h3 {
+    padding-left: 50%; }
+  body #obrazovanje h4 {
+    padding-left: 65%; } }
+@media screen and (max-width: 777px) {
+  body #obrazovanje h4 {
+    padding-left: 65.5%; } }
+@media screen and (max-width: 766px) {
+  body #obrazovanje {
+    height: auto;
+    background-image: none;
+    padding: 3%; }
+    body #obrazovanje table h2,
+    body #obrazovanje table h3,
+    body #obrazovanje table h4 {
+      padding-top: 6%; }
+      body #obrazovanje table h2 .dete,
+      body #obrazovanje table h3 .dete,
+      body #obrazovanje table h4 .dete {
+        visibility: visible;
+        margin-right: 5%; }
+    body #obrazovanje table h5 {
+      display: none; }
+    body #obrazovanje table h2 {
+      padding-left: 5%; }
+    body #obrazovanje table h3 {
+      padding-left: 20%; }
+    body #obrazovanje table h4 {
+      padding-left: 37%; } }
+@media screen and (max-width: 754px) {
+  body #slika {
+    display: block; }
+    body #slika #navigacija {
+      width: 90%;
+      margin: 0px auto; }
+    body #slika .about {
+      position: static;
+      margin: 15% auto;
+      width: 70%; }
+  body .skills .tekst {
+    width: 65%; }
+  body .skills .jedan {
+    background-position: 0px center; }
+  body #c {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-direction: column-reverse; }
+    body #c .c h1 {
+      display: none; } }
+@media screen and (max-width: 730px) {
+  body .skills {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    body .skills .proj {
+      display: static;
+      height: 250px;
+      width: 80%;
+      margin-top: 1%;
+      background-position: 0px center; }
+      body .skills .proj .sat {
+        font-size: 100px; } }
+@media screen and (max-width: 730px) and (max-width: 560px) {
+  body #c .c {
+    width: 100%;
+    height: auto; } }
+@media screen and (max-width: 730px) and (max-width: 480px) {
+  body #slika .about {
+    width: 60%;
+    height: 380px;
+    padding: 1%;
+    font-size: 13px; }
+    body #slika .about a {
+      margin: 0px;
+      padding: 0px;
+      font-size: 15px;
+      padding: 3%; }
+    body #slika .about h2 {
+      font-size: 20px; }
+    body #slika .about h1 {
+      font-size: 24px; }
+  body #slika #navigacija {
+    text-align: center;
+    height: auto;
+    padding-top: 2%; }
+    body #slika #navigacija nav ul {
+      flex-direction: column; }
+  body .skills {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    body .skills .skills1 li {
+      font-size: 21px;
+      padding-bottom: 0px; }
+    body .skills .proj {
+      display: static;
+      height: 157px;
+      width: 80%;
+      margin-top: 1%;
+      background-position: 0px center; }
+      body .skills .proj .sat {
+        font-size: 100px; }
+  body #obrazovanje table h2, body #obrazovanje table h3, body #obrazovanje table h4 {
+    font-size: 23px; }
+  body #c .c {
+    width: 90%;
+    height: auto; }
+  body #strelica {
+    right: 1%;
+    bottom: 1%; }
+  body #s,
+  body #e,
+  body #ed,
+  body #p {
+    font-size: 13px; } }
+@media screen and (max-width: 730px) and (max-width: 398px) {
+  body #slika .about {
+    height: auto;
+    width: 95%;
+    right: 0px;
+    margin: 0px auto;
+    margin-top: 2%; }
+  body #c .c {
+    width: 95%; }
+    body #c .c table input[type="text"],
+    body #c .c table input[type="email"] {
+      font-size: 15px; }
+    body #c .c .ikonice {
+      margin-top: 0px; }
+      body #c .c .ikonice a {
+        font-size: 20px; }
+  body #strelica {
+    display: none; }
+  body .ex .tekst {
+    width: 80%; } }
+
+/*# sourceMappingURL=styleresponsive.css.map */
